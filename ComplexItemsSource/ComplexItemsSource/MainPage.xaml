@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ComplexItemsSource"
+             xmlns:dataForm="clr-namespace:Syncfusion.Maui.DataForm;assembly=Syncfusion.Maui.DataForm"
+             x:Class="ComplexItemsSource.MainPage">
+
+    <dataForm:SfDataForm x:Name="dataForm"
+                         DataObject="{Binding DataFormModel}" ValidationMode="PropertyChanged">
+        <dataForm:SfDataForm.BindingContext>
+            <local:DataFormViewModel/>
+        </dataForm:SfDataForm.BindingContext>
+        <dataForm:SfDataForm.Behaviors>
+            <local:DataFormBehavior/>
+        </dataForm:SfDataForm.Behaviors>
+    </dataForm:SfDataForm>
+</ContentPage>
