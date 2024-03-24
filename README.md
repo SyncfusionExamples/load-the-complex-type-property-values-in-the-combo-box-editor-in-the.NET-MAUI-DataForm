@@ -1,9 +1,9 @@
 # How to load the complex type property values in the combo box editor in the .NET MAUI DataForm
 This repository contains a sample of How to load the complex type property values in the combo box editor in the [.NET MAUI DataForm (SfDataForm)](https://help.syncfusion.com/maui/dataform/getting-started) control.
 
-Please refer the KB through this link.
+Please refer the KB through this [link](https://support.syncfusion.com/kb/article/12383/how-to-load-the-complex-type-property-values-in-the-combo-box-editor-in-the-net-maui-dataform-sfdataform).
 
-# Syncfusion controls
+## Syncfusion controls
 
 This project used the following Syncfusion control(s):
 * [SfDataForm](https://www.syncfusion.com/maui-controls/maui-dataform)
