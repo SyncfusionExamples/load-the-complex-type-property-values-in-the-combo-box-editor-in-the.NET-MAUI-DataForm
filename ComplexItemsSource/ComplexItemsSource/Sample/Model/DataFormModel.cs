@@ -31,11 +31,11 @@ namespace ComplexItemsSource
 
         [Display(Name = "Date of Joining")]
         public DateTime DateOfJoining { get; set; }
-        public string FeedBack { get; set; }
+        public string FeedBack { get; set; } = string.Empty;
     }
     public class ComplexModel
     {
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
         public int DepartmentID { get; set; }
     }
     public enum Gender
