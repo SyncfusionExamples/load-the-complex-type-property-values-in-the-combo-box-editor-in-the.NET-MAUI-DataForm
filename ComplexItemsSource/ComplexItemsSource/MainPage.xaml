@@ -6,6 +6,7 @@
              x:Class="ComplexItemsSource.MainPage">
 
     <dataForm:SfDataForm x:Name="dataForm"
+                         x:DataType="local:DataFormViewModel"
                          DataObject="{Binding DataFormModel}" ValidationMode="PropertyChanged">
         <dataForm:SfDataForm.BindingContext>
             <local:DataFormViewModel/>

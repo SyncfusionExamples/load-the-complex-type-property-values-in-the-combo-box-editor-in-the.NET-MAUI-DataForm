@@ -17,7 +17,7 @@ namespace ComplexItemsSource
                 dataForm.GenerateDataFormItem += OnGenerateDataFormItem;
             }
         }
-        private void OnGenerateDataFormItem(object sender, GenerateDataFormItemEventArgs e)
+        private void OnGenerateDataFormItem(object? sender, GenerateDataFormItemEventArgs e)
         {
             if (e.DataFormItem!= null)
             {
