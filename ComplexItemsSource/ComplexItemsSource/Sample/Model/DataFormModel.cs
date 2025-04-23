@@ -9,6 +9,7 @@ namespace ComplexItemsSource
             this.Name = string.Empty;
             this.Address = string.Empty;
             this.Department = string.Empty;
+            this.FeedBack = string.Empty;
         }
 
         [Display(Prompt = "Enter your name")]
@@ -35,7 +36,7 @@ namespace ComplexItemsSource
     }
     public class ComplexModel
     {
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
         public int DepartmentID { get; set; }
     }
     public enum Gender
